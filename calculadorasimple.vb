@@ -1,18 +1,12 @@
 ﻿Module Module1
 
     Sub Main()
-        'Dim hola As CuentaBancaria = New CuentaBancaria(1, 10.5)
-        'hola.Depositar(500)
-        'hola.Depositar(1000)
-        'hola.Retirar(800)
-
-        'hola.MostrarBalance()
+     
 
         Dim opc As Char
         Dim calcu As Calculadora = New Calculadora()
         Dim a, b As Double
 
-        'Solicitar operación a realizar
 
         Console.WriteLine("¿Qué operación deseas realizar? Presiona la letra que corresponda y luego Enter.")
         Console.WriteLine("[s]umar, [r]estar, [m]ultiplicar, [d]ividir, [t]odas")
